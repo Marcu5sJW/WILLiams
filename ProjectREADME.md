@@ -89,3 +89,62 @@ The application will provide a **clean, user-friendly interface** that visually 
 ### 5. Backend (Python + Flask)
 
 #### Suggested Structure
+/app
+├── app.py
+├── routes.py
+├── utils/
+│     └── calculations.py
+├── data/
+│     └── distribution.xlsx
+├── templates/
+│     └── dashboard.html
+└── static/
+└── styles.css
+
+
+
+#### Responsibilities
+- Load and parse spreadsheet
+- Perform calculations:
+  - Distribution amounts
+  - Tax estimates
+- Pass data to frontend templates
+
+---
+
+### 6. Frontend
+
+#### Technologies
+- HTML + CSS (Bootstrap optional)
+- Minimal JavaScript for interactivity
+- Chart library (e.g., Chart.js)
+
+#### UI Features
+- Dashboard-style layout
+- Pie chart showing allocation
+- Table for detailed breakdown
+- Simple refresh/update button
+
+---
+
+### 7. Accessibility & Usability
+- Large text and clear labels
+- Avoid technical jargon
+- Simple navigation (single-page dashboard preferred)
+- Colour coding for clarity (e.g., children vs grandchildren)
+
+---
+
+### 8. Future Enhancements
+- Editable UI (instead of spreadsheet)
+- Secure login system
+- PDF export of will summary
+- Historical snapshots (track changes over time)
+- Integration with financial APIs
+
+---
+
+### Summary
+This application aims to bridge the gap between **financial complexity and usability**, providing a **clear, visual, and easily maintainable system** for tracking and understanding will distribution.
+
+**Core principle:** Keep it simple, transparent, and easy to update.
